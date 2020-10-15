@@ -53,7 +53,7 @@ namespace ConsoleApp1
             Console.Write("Введите Код цивилизации: ");
             var secretKey = Convert.ToInt32(Console.ReadLine());
             var encryptedText = pass.Decrypt(message, secretKey);
-            Console.WriteLine("Код доустпа: {0}", encryptedText);
+            Console.WriteLine("Сообщение: {0}", encryptedText);
             Console.ReadLine();
 
         }
